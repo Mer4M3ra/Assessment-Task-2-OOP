@@ -64,7 +64,8 @@ Represents each player and stores their hand
 ### Game Class
 #### Role
 Controls overall gameplay
-
+#### Attributes
+- 
 
 
 
