@@ -4,9 +4,9 @@
 Stores the data used for comparison in the game
 ### Attributes
 - Power: integer
-- Fuel Efficiency: Float
+- Fuel Efficiency: Integer
 - Year Manufactured: Integer
-- Price: Float
+- Price: Integer
 - Kilometres Travelled: Integer
 - Fuel Capacity: Integer
 ### Methods
@@ -26,11 +26,9 @@ Represents a playable card that contains a car
 ### Role
 Stores all cards and manages distribution
 ### Attributes
-- Cards: List<
-Card >
+- Cards: Integer
 ### Methods
 - Shuffle()
-- DrawCard()
 - AddCard()
 
 ## Player Class
@@ -50,7 +48,15 @@ Represents each player and stores their hand
 ### Role
 Controls overall gameplay
 ### Attributes
-- 
+- Deck
+- player1: Flow
+- Player2: Flow
+- Round Number: Integer
+### Methods
+- StartGame()
+- Win()
+- Lose()
+
 
 
 
