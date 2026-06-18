@@ -7,7 +7,7 @@ Stores the data used for comparison in the game
 - Fuel Efficiency: Integer
 - Year Manufactured: Integer
 - Price: Integer
-- Kilometres Travelled: Integer
+- Top Speed: Integer
 - Fuel Capacity: Integer
 ### Methods
 - GetAttributes(Attribute)
@@ -49,8 +49,8 @@ Represents each player and stores their hand
 Controls overall gameplay
 ### Attributes
 - Deck
-- player1: Flow
-- Player2: Flow
+- player1: String
+- Player2: String
 - Round Number: Integer
 ### Methods
 - StartGame()
